@@ -4,9 +4,50 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #122E43;
+  background-color: #F6F9FC;
+  font-size: 16px;
+  height: max-content;
+  padding: 56px; }
+
+nav {
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 1.5em; }
+
+ul li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  margin-bottom: 2em;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 1.125em;
+  text-rendering: geometricPrecision;
+  color: #122E43; }
+
+aside {
+  height: max-content;
+  float: left;
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  position: sticky;
+  top: 20px; }
+
+section {
   padding: 56px;
-  font-size: 16px; }
+  float: right;
+  width: 80%;
+  height: inherit;
+  background-color: #fff;
+  border-radius: 24px;
+  border: 1px solid #D0E1F1; }
 
 hr {
   border: 0.05em solid #7E99B4;
