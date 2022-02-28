@@ -9,7 +9,7 @@ body {
   font-size: 16px; }
 
 hr {
-  border: 0.05em solid #153751;
+  border: 0.05em solid #7E99B4;
   margin-top: 4%;
   margin-bottom: 4%; }
 
@@ -22,10 +22,10 @@ hr {
 .fontTag {
   background-color: none;
   width: fit-content;
-  color: #1f537a;
+  color: #60809F;
   padding: 0.5em;
   border-radius: 0.5em;
-  border: 1px solid #1c3d57;
+  border: 1px solid #60809F;
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   font-size: 0.75em;
