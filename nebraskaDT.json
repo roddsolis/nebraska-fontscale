@@ -604,1011 +604,431 @@
       "Headings": {
         "Desktop": {
           "Heading-L": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.0",
+              "fontSize": "$fontSize.15",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.0",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.15",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           },
           "Heading-M": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.1",
+              "fontSize": "$fontSize.14",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.1",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.14",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           },
           "Heading-S": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.2",
+              "fontSize": "$fontSize.12",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.2",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.12",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           }
         },
         "Tablet": {
           "Heading-L": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.3",
+              "fontSize": "$fontSize.13",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.3",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.13",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           },
           "Heading-M": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.4",
+              "fontSize": "$fontSize.11",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.4",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.11",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           },
           "Heading-S": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.5",
+              "fontSize": "$fontSize.10",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.5",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.10",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           }
         },
         "Mobile": {
           "Heading-L": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.6",
+              "fontSize": "$fontSize.8",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.6",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.8",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           },
           "Heading-M": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.7",
+              "fontSize": "$fontSize.7",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.7",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.7",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           },
           "Heading-S": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.8",
+              "fontSize": "$fontSize.6",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.8",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.6",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           }
         }
       },
       "Subheadings": {
         "Desktop": {
           "Subheading-L": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.9",
+              "fontSize": "$fontSize.9",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.9",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.9",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           },
           "Subheading-M": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.6",
+              "fontSize": "$fontSize.8",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.6",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.8",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           },
           "Subheading-S": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.10",
+              "fontSize": "$fontSize.5",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.10",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.5",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           }
         },
         "Tablet": {
           "Subheading-L": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.6",
+              "fontSize": "$fontSize.8",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.6",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.8",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           },
           "Subheading-M": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.8",
+              "fontSize": "$fontSize.6",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.8",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.6",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           },
           "Subheading-S": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.11",
+              "fontSize": "$fontSize.4",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.11",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.4",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           }
         },
         "Mobile": {
           "Subheading-L": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.10",
+              "fontSize": "$fontSize.5",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.10",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.5",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           },
           "Subheading-M": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.11",
+              "fontSize": "$fontSize.4",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.11",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.4",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           },
           "Subheading-S": {
-            "fontFamily": {
-              "value": "$fontFamilies.nunito",
-              "type": "fontFamily"
+            "value": {
+              "fontFamily": "$fontFamilies.nunito",
+              "fontWeight": "$fontWeights.nunito-0",
+              "lineHeight": "$lineHeights.12",
+              "fontSize": "$fontSize.3",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
             },
-            "fontWeight": {
-              "value": "$fontWeights.nunito-0",
-              "type": "fontWeight"
-            },
-            "lineHeight": {
-              "value": "$lineHeights.12",
-              "type": "lineHeight"
-            },
-            "fontSize": {
-              "value": "$fontSize.3",
-              "type": "fontSize"
-            },
-            "letterSpacing": {
-              "value": "$letterSpacing.0",
-              "type": "letterSpacing"
-            },
-            "paragraphSpacing": {
-              "value": "$paragraphSpacing.0",
-              "type": "paragraphSpacing"
-            },
-            "textCase": {
-              "value": "$textCase.none",
-              "type": "textCase"
-            },
-            "textDecoration": {
-              "value": "$textDecoration.none",
-              "type": "textDecoration"
-            }
+            "type": "typography",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
           }
         }
       },
       "Button text": {
         "Default": {
-          "fontFamily": {
-            "value": "$fontFamilies.nunito",
-            "type": "fontFamily"
+          "value": {
+            "fontFamily": "$fontFamilies.nunito",
+            "fontWeight": "$fontWeights.nunito-0",
+            "lineHeight": "$lineHeights.13",
+            "fontSize": "$fontSize.2",
+            "letterSpacing": "$letterSpacing.1",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
           },
-          "fontWeight": {
-            "value": "$fontWeights.nunito-0",
-            "type": "fontWeight"
-          },
-          "lineHeight": {
-            "value": "$lineHeights.13",
-            "type": "lineHeight"
-          },
-          "fontSize": {
-            "value": "$fontSize.2",
-            "type": "fontSize"
-          },
-          "letterSpacing": {
-            "value": "$letterSpacing.1",
-            "type": "letterSpacing"
-          },
-          "paragraphSpacing": {
-            "value": "$paragraphSpacing.0",
-            "type": "paragraphSpacing"
-          },
-          "textCase": {
-            "value": "$textCase.none",
-            "type": "textCase"
-          },
-          "textDecoration": {
-            "value": "$textDecoration.none",
-            "type": "textDecoration"
-          }
+          "type": "typography",
+          "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
         },
         "Small": {
-          "fontFamily": {
-            "value": "$fontFamilies.nunito",
-            "type": "fontFamily"
+          "value": {
+            "fontFamily": "$fontFamilies.nunito",
+            "fontWeight": "$fontWeights.nunito-0",
+            "lineHeight": "$lineHeights.14",
+            "fontSize": "$fontSize.1",
+            "letterSpacing": "$letterSpacing.1",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
           },
-          "fontWeight": {
-            "value": "$fontWeights.nunito-0",
-            "type": "fontWeight"
-          },
-          "lineHeight": {
-            "value": "$lineHeights.14",
-            "type": "lineHeight"
-          },
-          "fontSize": {
-            "value": "$fontSize.1",
-            "type": "fontSize"
-          },
-          "letterSpacing": {
-            "value": "$letterSpacing.1",
-            "type": "letterSpacing"
-          },
-          "paragraphSpacing": {
-            "value": "$paragraphSpacing.0",
-            "type": "paragraphSpacing"
-          },
-          "textCase": {
-            "value": "$textCase.none",
-            "type": "textCase"
-          },
-          "textDecoration": {
-            "value": "$textDecoration.none",
-            "type": "textDecoration"
-          }
+          "type": "typography",
+          "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
         },
         "Micro": {
-          "fontFamily": {
-            "value": "$fontFamilies.nunito",
-            "type": "fontFamily"
+          "value": {
+            "fontFamily": "$fontFamilies.nunito",
+            "fontWeight": "$fontWeights.nunito-0",
+            "lineHeight": "$lineHeights.15",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.1",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
           },
-          "fontWeight": {
-            "value": "$fontWeights.nunito-0",
-            "type": "fontWeight"
-          },
-          "lineHeight": {
-            "value": "$lineHeights.15",
-            "type": "lineHeight"
-          },
-          "fontSize": {
-            "value": "$fontSize.0",
-            "type": "fontSize"
-          },
-          "letterSpacing": {
-            "value": "$letterSpacing.1",
-            "type": "letterSpacing"
-          },
-          "paragraphSpacing": {
-            "value": "$paragraphSpacing.0",
-            "type": "paragraphSpacing"
-          },
-          "textCase": {
-            "value": "$textCase.none",
-            "type": "textCase"
-          },
-          "textDecoration": {
-            "value": "$textDecoration.none",
-            "type": "textDecoration"
-          }
+          "type": "typography",
+          "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
         }
       },
       "Paragraph": {
         "Regular": {
-          "fontFamily": {
-            "value": "$fontFamilies.nunito",
-            "type": "fontFamily"
+          "value": {
+            "fontFamily": "$fontFamilies.nunito",
+            "fontWeight": "$fontWeights.nunito-1",
+            "lineHeight": "$lineHeights.13",
+            "fontSize": "$fontSize.2",
+            "letterSpacing": "$letterSpacing.1",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
           },
-          "fontWeight": {
-            "value": "$fontWeights.nunito-1",
-            "type": "fontWeight"
-          },
-          "lineHeight": {
-            "value": "$lineHeights.13",
-            "type": "lineHeight"
-          },
-          "fontSize": {
-            "value": "$fontSize.2",
-            "type": "fontSize"
-          },
-          "letterSpacing": {
-            "value": "$letterSpacing.1",
-            "type": "letterSpacing"
-          },
-          "paragraphSpacing": {
-            "value": "$paragraphSpacing.0",
-            "type": "paragraphSpacing"
-          },
-          "textCase": {
-            "value": "$textCase.none",
-            "type": "textCase"
-          },
-          "textDecoration": {
-            "value": "$textDecoration.none",
-            "type": "textDecoration"
-          }
+          "type": "typography",
+          "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
         },
         "Bold": {
-          "fontFamily": {
-            "value": "$fontFamilies.nunito",
-            "type": "fontFamily"
+          "value": {
+            "fontFamily": "$fontFamilies.nunito",
+            "fontWeight": "$fontWeights.nunito-0",
+            "lineHeight": "$lineHeights.13",
+            "fontSize": "$fontSize.2",
+            "letterSpacing": "$letterSpacing.1",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
           },
-          "fontWeight": {
-            "value": "$fontWeights.nunito-0",
-            "type": "fontWeight"
-          },
-          "lineHeight": {
-            "value": "$lineHeights.13",
-            "type": "lineHeight"
-          },
-          "fontSize": {
-            "value": "$fontSize.2",
-            "type": "fontSize"
-          },
-          "letterSpacing": {
-            "value": "$letterSpacing.1",
-            "type": "letterSpacing"
-          },
-          "paragraphSpacing": {
-            "value": "$paragraphSpacing.0",
-            "type": "paragraphSpacing"
-          },
-          "textCase": {
-            "value": "$textCase.none",
-            "type": "textCase"
-          },
-          "textDecoration": {
-            "value": "$textDecoration.none",
-            "type": "textDecoration"
-          }
+          "type": "typography",
+          "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
         }
       },
       "Small text": {
         "Regular": {
-          "fontFamily": {
-            "value": "$fontFamilies.nunito",
-            "type": "fontFamily"
+          "value": {
+            "fontFamily": "$fontFamilies.nunito",
+            "fontWeight": "$fontWeights.nunito-1",
+            "lineHeight": "$lineHeights.14",
+            "fontSize": "$fontSize.1",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
           },
-          "fontWeight": {
-            "value": "$fontWeights.nunito-1",
-            "type": "fontWeight"
-          },
-          "lineHeight": {
-            "value": "$lineHeights.14",
-            "type": "lineHeight"
-          },
-          "fontSize": {
-            "value": "$fontSize.1",
-            "type": "fontSize"
-          },
-          "letterSpacing": {
-            "value": "$letterSpacing.0",
-            "type": "letterSpacing"
-          },
-          "paragraphSpacing": {
-            "value": "$paragraphSpacing.0",
-            "type": "paragraphSpacing"
-          },
-          "textCase": {
-            "value": "$textCase.none",
-            "type": "textCase"
-          },
-          "textDecoration": {
-            "value": "$textDecoration.none",
-            "type": "textDecoration"
-          }
+          "type": "typography",
+          "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
         },
         "Italic": {
-          "fontFamily": {
-            "value": "$fontFamilies.nunito",
-            "type": "fontFamily"
+          "value": {
+            "fontFamily": "$fontFamilies.nunito",
+            "fontWeight": "$fontWeights.nunito-2",
+            "lineHeight": "$lineHeights.14",
+            "fontSize": "$fontSize.1",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
           },
-          "fontWeight": {
-            "value": "$fontWeights.nunito-2",
-            "type": "fontWeight"
-          },
-          "lineHeight": {
-            "value": "$lineHeights.14",
-            "type": "lineHeight"
-          },
-          "fontSize": {
-            "value": "$fontSize.1",
-            "type": "fontSize"
-          },
-          "letterSpacing": {
-            "value": "$letterSpacing.0",
-            "type": "letterSpacing"
-          },
-          "paragraphSpacing": {
-            "value": "$paragraphSpacing.0",
-            "type": "paragraphSpacing"
-          },
-          "textCase": {
-            "value": "$textCase.none",
-            "type": "textCase"
-          },
-          "textDecoration": {
-            "value": "$textDecoration.none",
-            "type": "textDecoration"
-          }
+          "type": "typography",
+          "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
         },
         "Bold": {
-          "fontFamily": {
-            "value": "$fontFamilies.nunito",
-            "type": "fontFamily"
+          "value": {
+            "fontFamily": "$fontFamilies.nunito",
+            "fontWeight": "$fontWeights.nunito-0",
+            "lineHeight": "$lineHeights.14",
+            "fontSize": "$fontSize.1",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
           },
-          "fontWeight": {
-            "value": "$fontWeights.nunito-0",
-            "type": "fontWeight"
-          },
-          "lineHeight": {
-            "value": "$lineHeights.14",
-            "type": "lineHeight"
-          },
-          "fontSize": {
-            "value": "$fontSize.1",
-            "type": "fontSize"
-          },
-          "letterSpacing": {
-            "value": "$letterSpacing.0",
-            "type": "letterSpacing"
-          },
-          "paragraphSpacing": {
-            "value": "$paragraphSpacing.0",
-            "type": "paragraphSpacing"
-          },
-          "textCase": {
-            "value": "$textCase.none",
-            "type": "textCase"
-          },
-          "textDecoration": {
-            "value": "$textDecoration.none",
-            "type": "textDecoration"
-          }
+          "type": "typography",
+          "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
         }
       },
       "Extra small text": {
         "Regular": {
-          "fontFamily": {
-            "value": "$fontFamilies.nunito",
-            "type": "fontFamily"
+          "value": {
+            "fontFamily": "$fontFamilies.nunito",
+            "fontWeight": "$fontWeights.nunito-1",
+            "lineHeight": "$lineHeights.15",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
           },
-          "fontWeight": {
-            "value": "$fontWeights.nunito-1",
-            "type": "fontWeight"
-          },
-          "lineHeight": {
-            "value": "$lineHeights.15",
-            "type": "lineHeight"
-          },
-          "fontSize": {
-            "value": "$fontSize.0",
-            "type": "fontSize"
-          },
-          "letterSpacing": {
-            "value": "$letterSpacing.0",
-            "type": "letterSpacing"
-          },
-          "paragraphSpacing": {
-            "value": "$paragraphSpacing.0",
-            "type": "paragraphSpacing"
-          },
-          "textCase": {
-            "value": "$textCase.none",
-            "type": "textCase"
-          },
-          "textDecoration": {
-            "value": "$textDecoration.none",
-            "type": "textDecoration"
-          }
+          "type": "typography",
+          "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
         },
         "Italic": {
-          "fontFamily": {
-            "value": "$fontFamilies.nunito",
-            "type": "fontFamily"
+          "value": {
+            "fontFamily": "$fontFamilies.nunito",
+            "fontWeight": "$fontWeights.nunito-2",
+            "lineHeight": "$lineHeights.15",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
           },
-          "fontWeight": {
-            "value": "$fontWeights.nunito-2",
-            "type": "fontWeight"
-          },
-          "lineHeight": {
-            "value": "$lineHeights.15",
-            "type": "lineHeight"
-          },
-          "fontSize": {
-            "value": "$fontSize.0",
-            "type": "fontSize"
-          },
-          "letterSpacing": {
-            "value": "$letterSpacing.0",
-            "type": "letterSpacing"
-          },
-          "paragraphSpacing": {
-            "value": "$paragraphSpacing.0",
-            "type": "paragraphSpacing"
-          },
-          "textCase": {
-            "value": "$textCase.none",
-            "type": "textCase"
-          },
-          "textDecoration": {
-            "value": "$textDecoration.none",
-            "type": "textDecoration"
-          }
+          "type": "typography",
+          "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
         },
         "Bold": {
-          "fontFamily": {
-            "value": "$fontFamilies.nunito",
-            "type": "fontFamily"
+          "value": {
+            "fontFamily": "$fontFamilies.nunito",
+            "fontWeight": "$fontWeights.nunito-0",
+            "lineHeight": "$lineHeights.15",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
           },
-          "fontWeight": {
-            "value": "$fontWeights.nunito-0",
-            "type": "fontWeight"
-          },
-          "lineHeight": {
-            "value": "$lineHeights.15",
-            "type": "lineHeight"
-          },
-          "fontSize": {
-            "value": "$fontSize.0",
-            "type": "fontSize"
-          },
-          "letterSpacing": {
-            "value": "$letterSpacing.0",
-            "type": "letterSpacing"
-          },
-          "paragraphSpacing": {
-            "value": "$paragraphSpacing.0",
-            "type": "paragraphSpacing"
-          },
-          "textCase": {
-            "value": "$textCase.none",
-            "type": "textCase"
-          },
-          "textDecoration": {
-            "value": "$textDecoration.none",
-            "type": "textDecoration"
-          }
+          "type": "typography",
+          "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890"
         }
       },
       "textCase": {
