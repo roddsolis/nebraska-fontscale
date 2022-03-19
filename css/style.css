@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -7,52 +8,90 @@ body {
   background-color: #F6F9FC;
   font-size: 16px;
   height: max-content;
-  padding: 56px; }
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-row: 2fr;
+  padding: 0px 56px 56px 56px; }
 
 nav {
   z-index: 1;
   left: 0;
   top: 0;
-  width: 100%;
-  padding: 1.5em; }
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1 / span 12;
+  grid-row: 1 / span 1; }
 
-ul li,
-a {
+.topMenuList {
   list-style-type: none;
   text-decoration: none;
-  margin-bottom: 2em;
   font-family: 'Nunito', sans-serif;
-  color: white;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 24px;
-  font-size: 1.125em;
+  font-size: 18px;
+  letter-spacing: -0.4px;
   text-rendering: geometricPrecision;
-  color: #122E43; }
+  color: #7E99B4;
+  margin-right: 32px;
+  transition: 0.3s ease-in-out; }
 
-aside {
-  height: max-content;
-  float: left;
-  width: 20%;
+.topMenuList:hover {
+  color: #122E43;
+  transition: 0.3s ease-in-out; }
+
+.leftMenuList {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 18px;
+  letter-spacing: -0.4px;
+  text-rendering: geometricPrecision;
+  color: #7E99B4;
+  margin-bottom: 16px; }
+
+.leftMenu {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: start;
   flex-direction: column;
+  padding: 56px;
+  grid-column: 1 / span 2;
+  align-self: start;
   position: sticky;
-  top: 20px; }
+  top: 0; }
 
-section {
+.mainContent {
   padding: 56px;
   float: right;
-  width: 80%;
   height: inherit;
   background-color: #fff;
   border-radius: 24px;
-  border: 1px solid #D0E1F1; }
+  grid-column: 3 / 13;
+  align-self: start;
+  box-shadow: 0px 2px 5px -1px #D0E1F1; }
+
+.introContent {
+  margin-bottom: 24px; }
+
+.imagenIntro {
+  background-color: aqua;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 56px; }
+
+.infoContainer {
+  background-color: aquamarine;
+  margin-bottom: 56px; }
 
 hr {
-  border: 0.05em solid #7E99B4;
+  border: 1px solid #D0E1F1;
   margin-top: 4%;
-  margin-bottom: 4%; }
+  margin-bottom: 4%;
+  opacity: 0.2; }
 
 .tagContainer {
   height: fit-content;
@@ -63,20 +102,20 @@ hr {
 .fontTag {
   background-color: none;
   width: fit-content;
-  color: #60809F;
+  color: #BACCDE;
   padding: 0.5em;
   border-radius: 0.5em;
-  border: 1px solid #60809F;
+  border: 1px solid #D0E1F1;
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  font-size: 0.75em;
+  font-size: 12px;
   margin-bottom: 1em;
   margin-right: 1em; }
 
 /* escala tipografica */
 h1 {
   font-family: 'Nunito', sans-serif;
-  color: white;
+  color: #122E43;
   font-weight: 700;
   line-height: 62px;
   font-size: 3.375em;
@@ -84,7 +123,7 @@ h1 {
 
 h2 {
   font-family: 'Nunito', sans-serif;
-  color: white;
+  color: #122E43;
   font-weight: 700;
   line-height: 52px;
   font-size: 2.875em;
@@ -92,7 +131,7 @@ h2 {
 
 h3 {
   font-family: 'Nunito', sans-serif;
-  color: white;
+  color: #122E43;
   font-weight: 700;
   line-height: 42px;
   font-size: 2.375em;
@@ -100,7 +139,7 @@ h3 {
 
 h4 {
   font-family: 'Nunito', sans-serif;
-  color: white;
+  color: #122E43;
   font-weight: 700;
   line-height: 34px;
   font-size: 1.875em;
@@ -108,7 +147,7 @@ h4 {
 
 h5 {
   font-family: 'Nunito', sans-serif;
-  color: white;
+  color: #122E43;
   font-weight: 700;
   line-height: 30px;
   font-size: 1.625em;
@@ -116,7 +155,7 @@ h5 {
 
 h6 {
   font-family: 'Nunito', sans-serif;
-  color: white;
+  color: #122E43;
   font-weight: 700;
   line-height: 26px;
   font-size: 1.375em;
@@ -124,7 +163,7 @@ h6 {
 
 .parrafo-1 {
   font-family: 'Nunito', sans-serif;
-  color: white;
+  color: #122E43;
   font-weight: 400;
   letter-spacing: 1%;
   line-height: 24px;
@@ -133,7 +172,7 @@ h6 {
 
 .parrafo-2 {
   font-family: 'Nunito', sans-serif;
-  color: white;
+  color: #122E43;
   font-weight: 400;
   letter-spacing: 1%;
   line-height: 22px;
@@ -142,7 +181,7 @@ h6 {
 
 .parrafo-3 {
   font-family: 'Nunito', sans-serif;
-  color: white;
+  color: #122E43;
   font-weight: 400;
   letter-spacing: 1%;
   line-height: 20px;
@@ -151,7 +190,7 @@ h6 {
 
 .button-1 {
   font-family: 'Nunito', sans-serif;
-  color: white;
+  color: #122E43;
   font-weight: 700;
   line-height: 24px;
   font-size: 1.125em;
@@ -159,7 +198,7 @@ h6 {
 
 .button-2 {
   font-family: 'Nunito', sans-serif;
-  color: white;
+  color: #122E43;
   font-weight: 700;
   line-height: 22px;
   font-size: 1em;
@@ -167,7 +206,7 @@ h6 {
 
 .button-3 {
   font-family: 'Nunito', sans-serif;
-  color: white;
+  color: #122E43;
   font-weight: 700;
   line-height: 20px;
   font-size: 0.875em;
@@ -175,7 +214,7 @@ h6 {
 
 .smallText {
   font-family: 'Nunito', sans-serif;
-  color: white;
+  color: #122E43;
   font-weight: 400;
   line-height: 18px;
   font-size: 0.875em;
@@ -183,51 +222,29 @@ h6 {
 
 .extraSmallText {
   font-family: 'Nunito', sans-serif;
-  color: white;
+  color: #122E43;
   font-weight: 400;
   line-height: 16px;
   font-size: 0.75em;
   text-rendering: geometricPrecision; }
 
-@media (max-width: 1366px) {
+/* Latops y desktops */
+/* tablets y Ipad */
+@media (min-width: 768px) and (max-width: 1024px) {
   body {
-    background-color: crimson;
-    font-size: 18px; } }
+    background-color: green; } }
 
-@media (max-width: 768px) {
+/* tablets y Ipad (horizontal)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: horizontal) {
   body {
-    background-color: violet; }
-  h1 {
-    font-size: 40px;
-    line-height: 120%; }
-  h2 {
-    font-size: 36px;
-    line-height: 120%; }
-  h3 {
-    font-size: 32px;
-    line-height: 120%; }
-  h4 {
-    font-size: 28px;
-    line-height: 120%; }
-  h5 {
-    font-size: 24px;
-    line-height: 120%; }
-  h6 {
-    font-size: 20px;
-    line-height: 120%; } }
+    background-color: lightgreen; } }
 
-@media (max-width: 360px) {
+/* tablets de baja resolución y telefonos mobiles (horizontal)*/
+@media (min-width: 481px) and (max-width: 767px) {
   body {
-    background-color: turquoise; }
-  h1 {
-    font-size: 40px; }
-  h2 {
-    font-size: 36px; }
-  h3 {
-    font-size: 32px; }
-  h4 {
-    font-size: 28px; }
-  h5 {
-    font-size: 24px; }
-  h6 {
-    font-size: 20px; } }
+    background-color: blue; } }
+
+/* dipositivos mobiles*/
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    background-color: lightblue; } }
