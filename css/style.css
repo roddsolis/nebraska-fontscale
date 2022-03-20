@@ -2,7 +2,9 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  text-rendering: geometricPrecision;
+  shape-rendering: geometricPrecision; }
 
 body {
   background-color: #F6F9FC;
@@ -11,7 +13,14 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-row: 2fr;
-  padding: 0px 56px 56px 56px; }
+  min-height: 100vh; }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 56px;
+  grid-column: 1 / 13; }
 
 nav {
   z-index: 1;
@@ -19,10 +28,51 @@ nav {
   top: 0;
   height: 120px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   grid-column: 1 / span 12;
-  grid-row: 1 / span 1; }
+  grid-row: 1 / span 1;
+  padding: 0px 56px 0px 56px; }
+
+input[type=search] {
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #D0E1F1;
+  border-radius: 8px; }
+
+input[type=search]::placeholder {
+  color: #7E99B4;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -1%; }
+
+button {
+  width: fit-content;
+  padding: 16px;
+  background: linear-gradient(180deg, #FD8300, #FD5B00, #FD2A00);
+  background-size: auto 200%;
+  background-position: 0 0%;
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid #EC4A04;
+  box-shadow: inset 0px -1px 0px #FFA24E;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  transition: 0.3s ease-in; }
+
+button:hover {
+  transition: 0.3s ease-out;
+  background-position: 0 100%; }
+
+button:active {
+  color: #FFA24E;
+  background: linear-gradient(180deg, #FD8300, #FD5B00, #FD2A00);
+  transition: 0.1s ease-in-out; }
 
 .topMenuList {
   list-style-type: none;
@@ -75,17 +125,9 @@ nav {
   box-shadow: 0px 2px 5px -1px #D0E1F1; }
 
 .introContent {
-  margin-bottom: 24px; }
-
-.imagenIntro {
-  background-color: aqua;
-  width: 100%;
-  height: 300px;
-  margin-bottom: 56px; }
-
-.infoContainer {
-  background-color: aquamarine;
-  margin-bottom: 56px; }
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column; }
 
 hr {
   border: 1px solid #D0E1F1;
