@@ -1144,7 +1144,7 @@
           "type": "sizing"
         },
         "container-fullwidth": {
-          "value": "100%",
+          "value": "1366",
           "type": "sizing"
         }
       },
@@ -1178,6 +1178,10 @@
           "type": "sizing"
         }
       }
+    },
+    "color-none": {
+      "value": "rgba(0, 0 , 0 , 0)",
+      "type": "color"
     }
   }
 }
