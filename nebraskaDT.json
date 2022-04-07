@@ -1,6 +1,10 @@
 {
   "global": {
     "global": {
+      "border-radius-none": {
+        "value": "0",
+        "type": "borderRadius"
+      },
       "border-radius-XS": {
         "value": "4",
         "type": "borderRadius"
@@ -71,6 +75,10 @@
           "value": "#fff2e6",
           "type": "color",
           "description": "#FFF2E6"
+        },
+        "button-200": {
+          "value": "#FD8300",
+          "type": "color"
         }
       },
       "Text colors": {
@@ -1066,10 +1074,6 @@
         "value": "0",
         "type": "spacing"
       },
-      "border-radius-none": {
-        "value": "0",
-        "type": "borderRadius"
-      },
       "opacity-10": {
         "value": "10%",
         "type": "opacity"
@@ -1176,6 +1180,58 @@
         "container-fullwidth": {
           "value": "100%",
           "type": "sizing"
+        }
+      },
+      "Primary button shadows": {
+        "innerShadows": {
+          "buttonNormal": {
+            "value": {
+              "x": "0",
+              "y": "2",
+              "blur": "0",
+              "spread": "0",
+              "color": "{global.Brand colors.brand-600}",
+              "type": "innerShadow"
+            },
+            "type": "boxShadow"
+          },
+          "buttonHover": {
+            "value": {
+              "x": "0",
+              "y": "2",
+              "blur": "0",
+              "spread": "0",
+              "color": "{global.Brand colors.brand-600}",
+              "type": "innerShadow"
+            },
+            "type": "boxShadow"
+          }
+        }
+      },
+      "Secondary button shadows": {
+        "innerShadows": {
+          "buttonNormal": {
+            "value": {
+              "x": "0",
+              "y": "2",
+              "blur": "0",
+              "spread": "0",
+              "color": "{global.globalwhite}",
+              "type": "innerShadow"
+            },
+            "type": "boxShadow"
+          },
+          "buttonHover": {
+            "value": {
+              "x": "0",
+              "y": "2",
+              "blur": "0",
+              "spread": "0",
+              "color": "{global.Background colors.background-200}",
+              "type": "innerShadow"
+            },
+            "type": "boxShadow"
+          }
         }
       }
     },
