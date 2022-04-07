@@ -13,6 +13,10 @@
         "value": "8",
         "type": "borderRadius"
       },
+      "border-radius-M": {
+        "value": "12",
+        "type": "borderRadius"
+      },
       "border-radius-L": {
         "value": "16",
         "type": "borderRadius"
@@ -25,11 +29,19 @@
         "value": "32",
         "type": "borderRadius"
       },
+      "spacing-none": {
+        "value": "0",
+        "type": "spacing"
+      },
       "spacing-XS": {
         "value": "8",
         "type": "spacing"
       },
       "spacing-S": {
+        "value": "12",
+        "type": "spacing"
+      },
+      "spacing-M": {
         "value": "16",
         "type": "spacing"
       },
@@ -41,8 +53,16 @@
         "value": "32",
         "type": "spacing"
       },
-      "spacing-XXL": {
+      "spacing-2XL": {
         "value": "40",
+        "type": "spacing"
+      },
+      "spacing-3XL": {
+        "value": "48",
+        "type": "spacing"
+      },
+      "spacing-4XL": {
+        "value": "56",
         "type": "spacing"
       },
       "globalwhite": {
@@ -306,7 +326,7 @@
             "type": "color",
             "description": "#EAF3F6"
           },
-          "platinum-800": {
+          "platinum-default": {
             "value": "#172a48",
             "type": "color",
             "description": "#172A48"
@@ -1085,6 +1105,10 @@
         "value": "2px",
         "type": "borderWidth"
       },
+      "border-none": {
+        "value": "0",
+        "type": "borderWidth"
+      },
       "Shadow-none": {
         "value": {
           "color": "#ffffff00",
@@ -1095,10 +1119,6 @@
           "spread": "-2"
         },
         "type": "boxShadow"
-      },
-      "spacing-none": {
-        "value": "0",
-        "type": "spacing"
       },
       "opacity-10": {
         "value": "10%",
@@ -1204,7 +1224,7 @@
           "type": "sizing"
         },
         "container-fullwidth": {
-          "value": "100%",
+          "value": "360",
           "type": "sizing"
         }
       },
