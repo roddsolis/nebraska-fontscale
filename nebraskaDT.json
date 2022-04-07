@@ -79,6 +79,22 @@
         "button-200": {
           "value": "#FD8300",
           "type": "color"
+        },
+        "button-400": {
+          "value": "#FD5B00",
+          "type": "color"
+        },
+        "button-600": {
+          "value": "#FD2A00",
+          "type": "color"
+        },
+        "button-Border-normal": {
+          "value": "#FF4000",
+          "type": "color"
+        },
+        "button-Border-hover": {
+          "value": "#EB2300",
+          "type": "color"
         }
       },
       "Text colors": {
@@ -232,6 +248,16 @@
           },
           "gradient-up": {
             "value": "linear-gradient(0deg, #fd5b00 0%, #fd8300 100%)",
+            "type": "color"
+          }
+        },
+        "button-primary": {
+          "normal": {
+            "value": "linear-gradient(0deg, {global.Brand colors.button-400} 0%, {global.Brand colors.button-200} 100%)",
+            "type": "color"
+          },
+          "hover": {
+            "value": "linear-gradient(0deg, {global.Brand colors.button-600} 0%, {global.Brand colors.button-400} 100%)",
             "type": "color"
           }
         },
